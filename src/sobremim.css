@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Bodoni&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.center {
+  text-align: center;
+}
+.dark {
+  background-color: rgb(67, 97, 127);
+}
+.box {
+  border-top: solid 1px rgb(116, 190, 203);
+  border-left: solid 1px rgb(116, 190, 203);
+}
+.centro {
+  justify-content: center;
+}
+.branco {
+  color: rgb(116, 190, 203);
+}
+.paragrafosobremim {
+  padding: 5%;
+  font-size: large;
+  text-align: justify;
+  color: aliceblue;
+}

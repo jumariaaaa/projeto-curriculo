@@ -1,0 +1,22 @@
+.titulo {
+  color: aliceblue;
+}
+.subtitulo {
+  color: aliceblue;
+}
+.montserrat-uniquifier {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.accordion-button {
+  background-color: rgb(116, 190, 203) !important;
+}
+.accordion-border {
+  background-color: rgb(116, 190, 203) !important;
+}
+.size {
+  width: 190px;
+}
