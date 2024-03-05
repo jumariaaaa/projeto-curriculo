@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Bodoni&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.textoense {
+  font-size: 17px;
+  padding: 2px;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+}
+.boxenseumedois {
+  border-top: solid 1px rgb(116, 190, 203);
+  border-left: solid 1px rgb(116, 190, 203);
+  padding: 2%;
+}
+.boxdois {
+  border-top: solid 1px rgb(116, 190, 203);
+  border-right: solid 1px rgb(116, 190, 203);
+  padding: 2%;
+}
+
+.img-portfolio {
+  width: 500px;
+  height: 300px;
+}
+.text {
+  text-align: justify;
+}

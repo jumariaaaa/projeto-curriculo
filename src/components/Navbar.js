@@ -1,28 +1,27 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { Container, Stack, Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-scroll";
+import "../components/Navbar.js";
 
 function NavbarComponent() {
   const navLinks = [
     {
-      href: "#home",
+      href: "home",
       title: "Início",
     },
     {
-      href: "#about",
+      href: "about",
       title: "Sobre",
     },
     {
-      href: "#skills",
+      href: "skills",
       title: "Habilidades",
     },
     {
-      href: "#portfolio",
+      href: "portfolio",
       title: "Portfólio",
     },
     {
-      href: "#contact",
+      href: "contact",
       title: "Contato",
     },
   ];
@@ -32,15 +31,28 @@ function NavbarComponent() {
       bg="dar
    k"
       data-bs-theme="dark"
+      className="position-fixed"
     >
       <Container>
         <Navbar.Brand href="#home">Júlia Maria</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            {navLinks.map((item, i) => {
-              return <Nav.Link href={item.href}>{item.title}</Nav.Link>;
-            })}
+            <Stack direction="horizontal" gap={3}>
+              {navLinks.map((item, i) => {
+                return (
+                  <Link
+                    to={item.href}
+                    className="link-nav"
+                    smooth={true}
+                    offset={0}
+                    duration={400}
+                  >
+                    {item.title}
+                  </Link>
+                );
+              })}
+            </Stack>
           </Nav>
         </Navbar.Collapse>
       </Container>

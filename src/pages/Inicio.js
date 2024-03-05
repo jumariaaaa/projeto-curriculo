@@ -6,20 +6,22 @@ import Image from "react-bootstrap/Image";
 import FotoCurriculo from "../img/curriculo.jpg";
 import "../index.css";
 import { CgColorBucket } from "react-icons/cg";
+import { Link } from "react-scroll";
 
 function InicioComponent() {
   return (
-    <Container className="centro mt-5 mb-4 montserrat-uniquifier">
+    <Container className="centro mb-4 montserrat-uniquifier" id="home">
       <Row>
-        <Col>
-          <Image className="size" src={FotoCurriculo} roundedCircle />
-          <h1 className="titulo mt-4">Oi, sou a Júlia Maria</h1>
-          <p className="subtitulo">
+        <Col className="mt-5">
+          <Image className="size mt-5" src={FotoCurriculo} roundedCircle />
+          <h1 className="titulo mt-5">Oi, sou a Júlia Maria</h1>
+          <p className="subtitulo mt-2">
             Venha conhecer um pouco mais sobre essa Web Desenvolver
           </p>
-          <Button href="../pages/SobreMim.js" variant="info" size="md">
-            Quem sou eu?
-          </Button>
+
+          <button>
+            <Link to="about">Clique em Mim</Link>
+          </button>
         </Col>
       </Row>
     </Container>

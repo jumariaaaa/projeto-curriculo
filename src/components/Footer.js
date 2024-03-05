@@ -23,7 +23,7 @@ function FooterComponent() {
             </li>
           </ul>
 
-          <p className="text-center"></p>
+          <p className="text-center">E-mail: juliafurtado1202@gmail.com</p>
 
           <ul className="social_footer_ul">
             <li>

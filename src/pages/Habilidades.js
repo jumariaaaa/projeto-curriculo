@@ -82,16 +82,16 @@ function Servicos() {
     },
   ];
   return (
-    <Container>
-      <h1 className="text-center" style={{ color: "white" }}>
+    <Container className="" id="skills">
+      <h1 className="text-center margin" style={{ color: "white" }}>
         Habilidades
       </h1>{" "}
       {servicosData.map((item, i) => {
         return (
-          <Stack gap={3} className="bg-white">
+          <Stack gap={3} className="transparent">
             <Accordion
               defaultActiveKey="0"
-              style={{ backgroundColor: "transparent", color: "black" }}
+              style={{ backgroundColor: "", color: "black" }}
             >
               {React.createElement(
                 item.icon,

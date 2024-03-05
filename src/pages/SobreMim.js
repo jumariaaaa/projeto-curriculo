@@ -7,9 +7,9 @@ import "../sobremim.css";
 function SobreMimComponent() {
   return (
     <>
-      <Container className="mt-5 branco ">
-        <Row>
-          <h1 className="text-center text-whitesmoke">Sobre mim</h1>
+      <Container className="mt-5 branco " id="about">
+        <Row className="mt-4">
+          <h1 className="text-center text-whitesmoke mt-5">Sobre mim</h1>
           <Col className="col-md-6 box mt-3 mb-4">
             <p className="paragrafosobremim">
               Olá, meu nome é Júlia Maria Furtado Leite, tenho 16 anos e estou

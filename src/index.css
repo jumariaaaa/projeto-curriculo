@@ -20,3 +20,27 @@
 .size {
   width: 190px;
 }
+
+.link-nav {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(186, 185, 185);
+}
+.fixed {
+  position: fixed;
+  background-color: #4a565f;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(15, 152, 176);
+  color: #fff;
+  border: transparent;
+  border-radius: 180px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #0d406a; /* Tom mais escuro ao passar o mouse */
+}
